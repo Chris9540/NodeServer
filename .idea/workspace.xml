@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="63976717-1afc-4185-9c68-17d6ebaea1c3" name="Default Changelist" comment=".idea files">
-      <change afterPath="$PROJECT_DIR$/app/frontend/src/components/Layout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/frontend/src/config/router.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/frontend/src/seed.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/frontend/src/views/AddEmployee.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/frontend/src/views/ListEmployees.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/frontend/src/views/SeedData.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/employee.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/employee.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/src/components/PaginatedTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/components/PaginatedTable.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/frontend/src/services/employee.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/services/employee.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="63976717-1afc-4185-9c68-17d6ebaea1c3" name="Default Changelist" comment=".idea files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607272162032</updated>
       <workItem from="1607272163337" duration="12385000" />
+      <workItem from="1607286697154" duration="865000" />
     </task>
     <task id="LOCAL-00001" summary=".idea files">
       <created>1607273017188</created>
@@ -118,25 +119,44 @@
       <option name="project" value="LOCAL" />
       <updated>1607273017188</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added layout, routes, views">
+      <created>1607286945515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607286945515</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea files" />
+    <MESSAGE value="added layout, routes, views" />
+    <option name="LAST_COMMIT_MESSAGE" value="added layout, routes, views" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607276341774">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607276341774" />
-    <state x="231" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607286531947">
+    <state x="231" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607286708027">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="231" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607286531947" />
+    <state x="231" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607286708027" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1607273084211">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -169,9 +189,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1607274972782" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1607273021600">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1607286950895">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1607273021600" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1607286950895" />
   </component>
 </project>
