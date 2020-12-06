@@ -111,6 +111,7 @@
       <updated>1607272162032</updated>
       <workItem from="1607272163337" duration="12385000" />
       <workItem from="1607286697154" duration="865000" />
+      <workItem from="1607288124875" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary=".idea files">
       <created>1607273017188</created>
@@ -126,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607286945515</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="workspace.xml">
+      <created>1607288154356</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607288154356</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,56 +150,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".idea files" />
     <MESSAGE value="added layout, routes, views" />
-    <option name="LAST_COMMIT_MESSAGE" value="added layout, routes, views" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="180" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607276341774">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="414" y="180" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607276341774" />
-    <state x="231" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607286708027">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="231" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607286708027" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1607273084211">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1607273084211" />
-    <state x="835" y="423" key="Github.ShareDialog" timestamp="1607272243288">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="835" y="423" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607272243288" />
-    <state x="753" y="222" key="Github.UntrackedFilesDialog" timestamp="1607272280319">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="753" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607272280319" />
-    <state width="941" height="279" key="GridCell.Tab.0.bottom" timestamp="1607286635166">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="941" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607286635166" />
-    <state width="941" height="279" key="GridCell.Tab.0.center" timestamp="1607286635166">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="941" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607286635166" />
-    <state width="941" height="279" key="GridCell.Tab.0.left" timestamp="1607286635166">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="941" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607286635166" />
-    <state width="941" height="279" key="GridCell.Tab.0.right" timestamp="1607286635166">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="941" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607286635166" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1607274972782">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1607274972782" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1607286950895">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1607286950895" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
 </project>
