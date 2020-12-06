@@ -1,5 +1,5 @@
 const databaseConfig = require("./database.config.js");
-const tables = require("./tables.config.js")
+const tables = require("./tables.config.js");
 const Sequelize = require("sequelize");
 
 const SQL = new Sequelize(databaseConfig.DB, databaseConfig.USER, databaseConfig.PASSWORD, {
@@ -11,12 +11,12 @@ const SQL = new Sequelize(databaseConfig.DB, databaseConfig.USER, databaseConfig
     max: databaseConfig.pool.max,
     min: databaseConfig.pool.min,
     acquire: databaseConfig.pool.acquire,
-    idle: databaseConfig.pool.idle
+    idle: databaseConfig.pool.idle,
   },
   define: {
     freezeTableName: true,
     underscored: true,
-  }
+  },
 });
 
 const database = {};
@@ -27,39 +27,38 @@ database.SQL = SQL;
 buildTables();
 
 module.exports = database;
-
+/**
+ * uses the tables.config to add all the tables;
+ */
 function buildTables() {
-    tables.forEach(t => {
-        database[t.name] = require(`../models/${t.name}.model.js`) (SQL, Sequelize);
-    });
-    buildRelations();
+  tables.forEach((t) => {
+    database[t.name] = require(`../models/${t.name}.model.js`)(SQL, Sequelize);
+  });
+  buildRelations();
 }
 
 function buildRelations() {
-    tables.sort((a,b)=>{
-        if(a.relation > b.relation) {
-            return -1;
-        }
-        else if(a.relation < b.relation) {
-            return 1;
-        }
-        else {
-            return 0;
-        }
-    })
-    tables.forEach(t=> {
-        if(t.relation && t.relatedTable) {
-        if(t.relation === "hasMany") {
-            database[t.name].hasMany(database[t.relatedTable], {
-                as : t.relatedTable
-            })
-        }
-        else if(t.relation === "belongsTo" && t.foreignKey) {
-            database[t.name].belongsTo(database[t.relatedTable], {
-                foreignKey: t.foreignKey,
-                as: `${t.relatedTable}_${t.foreignKey}`
-            })
-        }
-        }
-    })
+  tables.sort((a, b) => {
+    if (a.relation > b.relation) {
+      return -1;
+    } else if (a.relation < b.relation) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+  tables.forEach((t) => {
+    if (t.relation && t.relatedTable) {
+      if (t.relation === "hasMany") {
+        database[t.name].hasMany(database[t.relatedTable], {
+          as: t.relatedTable,
+        });
+      } else if (t.relation === "belongsTo" && t.foreignKey) {
+        database[t.name].belongsTo(database[t.relatedTable], {
+          foreignKey: t.foreignKey,
+          as: `${t.relatedTable}_${t.foreignKey}`,
+        });
+      }
+    }
+  });
 }
