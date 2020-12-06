@@ -5,8 +5,14 @@ let path = __dirname + "/app/frontend/dist/";
 const server = express();
 const database = require("./app/config/sequelize.config.js");
 
-database.SQL.sync();
-//database.SQL.sync({force:true}).then(()=>{console.log("Drop and re-sync db.");});
+const clean = process.argv.slice(2);
+if (clean.length > 0 && clean[0] === "clean") {
+  database.SQL.sync({force:true})
+      .then(()=>{console.log("Drop and re-sync db.");});
+} else {
+  database.SQL.sync();
+}
+
 
 server.use(express.static(path));
 
@@ -27,5 +33,5 @@ require("./app/routes/employee.routes")(server);
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
+  console.debug(`Server is running on port ${PORT}.`);
 });

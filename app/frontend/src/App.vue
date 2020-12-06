@@ -1,38 +1,24 @@
 <template>
-  <screenlet>
-    <paginated-table
-      :colNames="['First Name', 'Last Name', 'Email']"
-      :colData="['firstName', 'lastName', 'emailId']"
-      :edit="true"
-      :del="true"
-      :view="true"
-      :fetchURL="{url: 'http://localhost:8080/api/employee/pagedList'}"
-      @on-edit="editRecord"
-      @on-delete="deleteRecord"
-    />
-  </screenlet>
+  <layout>
+    <router-view/>
+  </layout>
 </template>
 
 <script>
-import PaginatedTable from "./components/PaginatedTable.vue";
-import Screenlet from "./components/Screenlet.vue";
 
+
+import Layout from "@/components/Layout";
 export default {
   name: "App",
   components: {
-    PaginatedTable,
-    Screenlet,
+    Layout
+
   },
   data() {
     return {};
   },
   methods: {
-    editRecord(record) {
-      console.log("EDIT RECORD", record);
-    },
-    deleteRecord(record) {
-      console.log("DELETE RECORD", record);
-    },
+
   },
 };
 </script>
@@ -44,6 +30,10 @@ export default {
   margin: 0;
   font-size: 1em;
   color: white;
+}
+body {
+  height: 100vh;
+  background: #666666;
 }
 *:hover,
 *:active {
@@ -59,9 +49,7 @@ select {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
+  height: 100%;
 }
 button {
   color: white;

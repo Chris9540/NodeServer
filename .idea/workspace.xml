@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63976717-1afc-4185-9c68-17d6ebaea1c3" name="Default Changelist" comment="" />
+    <list default="true" id="63976717-1afc-4185-9c68-17d6ebaea1c3" name="Default Changelist" comment=".idea files">
+      <change afterPath="$PROJECT_DIR$/app/frontend/src/components/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/frontend/src/config/router.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/frontend/src/seed.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/frontend/src/views/AddEmployee.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/frontend/src/views/ListEmployees.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/frontend/src/views/SeedData.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/employee.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/employee.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/frontend/src/components/PaginatedTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/components/PaginatedTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/frontend/src/services/employee.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/frontend/src/services/employee.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,18 +51,55 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\Projects\NodeServer\app\frontend\src\views" />
+      <recent name="C:\Users\chris\Projects\NodeServer\app\frontend\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration default="true" type="NodeJSConfigurationType" node-parameters="run start" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="start clean" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <arguments value="clean" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.start clean" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,14 +109,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607272162032</updated>
-      <workItem from="1607272163337" duration="755000" />
+      <workItem from="1607272163337" duration="12385000" />
     </task>
+    <task id="LOCAL-00001" summary=".idea files">
+      <created>1607273017188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607273017188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea files" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="180" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607276341774">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607276341774" />
+    <state x="231" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607286531947">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="231" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607286531947" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1607273084211">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1607273084211" />
     <state x="835" y="423" key="Github.ShareDialog" timestamp="1607272243288">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -63,5 +149,29 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="753" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607272280319" />
+    <state width="941" height="279" key="GridCell.Tab.0.bottom" timestamp="1607286635166">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="941" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607286635166" />
+    <state width="941" height="279" key="GridCell.Tab.0.center" timestamp="1607286635166">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="941" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607286635166" />
+    <state width="941" height="279" key="GridCell.Tab.0.left" timestamp="1607286635166">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="941" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607286635166" />
+    <state width="941" height="279" key="GridCell.Tab.0.right" timestamp="1607286635166">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="941" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607286635166" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1607274972782">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1607274972782" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1607273021600">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1607273021600" />
   </component>
 </project>

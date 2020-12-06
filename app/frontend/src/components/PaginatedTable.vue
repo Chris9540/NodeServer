@@ -29,7 +29,7 @@
         <tbody>
           <tr v-for="(row, index) in content" :key="index">
             <td v-if="showIndex">
-              {{ page + index + 1 }}
+              {{ page * size + index + 1 }}
             </td>
             <template v-if="index < size">
               <td v-for="(cell, index) in colData" :key="index">
@@ -239,6 +239,7 @@ $tableHeight: 366px;
 
     tbody > tr {
       > td {
+        text-align: center;
         padding: $cellPadd;
       }
 

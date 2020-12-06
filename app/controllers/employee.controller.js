@@ -3,7 +3,7 @@ const Employee = database.employee;
 const Op = database.Sequelize.Op;
 
 exports.create = (req, res) => {
-  if (!req.body.fName || !req.body.lName) {
+  if (!req.body.firstName || !req.body.lastName) {
     res.status(400).send({
       message: "Required : first name, last name",
     });
@@ -11,8 +11,8 @@ exports.create = (req, res) => {
   }
 
   let employeeData = {
-    firstName: req.body.fName,
-    lastName: req.body.lName,
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
   };
   if (req.body.emailId) {
     employeeData.emailId = req.body.emailId;
@@ -42,6 +42,9 @@ exports.pagedList = (req, res) => {
     limit: LIMIT,
     offset: OFFSET,
     where: {},
+    order: [
+        ["lastName" , "ASC"]
+    ]
   })
     .then((data) => res.send(data))
     .catch((err) => {
