@@ -1,22 +1,18 @@
 <template>
   <div class="root">
     <header>
-      <div>
-
-      </div>
-      <div>
-
-      </div>
+      <div></div>
+      <div></div>
       <nav>
         <ul>
           <li title="List Employees">
             <router-link to="/">
-              <font-awesome-icon :icon="list"/>
+              <font-awesome-icon :icon="list" />
             </router-link>
           </li>
           <li title="Add Employee">
             <router-link to="/add">
-              <font-awesome-icon :icon="user"/>
+              <font-awesome-icon :icon="user" />
             </router-link>
           </li>
         </ul>
@@ -31,23 +27,23 @@
 </template>
 
 <script>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faList, faUserPlus } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { faList, faUserPlus } from "@fortawesome/free-solid-svg-icons";
 
 export default {
   name: "Layout",
-  components: {FontAwesomeIcon},
+  components: { FontAwesomeIcon },
   data() {
     return {
-      list : faList,
-      user: faUserPlus
-    }
+      list: faList,
+      user: faUserPlus,
+    };
   },
-}
+};
 </script>
 
 <style lang="scss" scoped>
-$border : 1px solid #666;
+$border: 1px solid #666;
 .root {
   display: grid;
   grid-template-columns: 1fr;
@@ -85,20 +81,21 @@ $border : 1px solid #666;
                 margin-right: 8px;
               }
               &:hover {
-                >a {
-                  > svg{
-                    color: orangered;
-                  }
-                }
-               filter: brightness(120%);
+                filter: brightness(120%);
+                color: orangered !important;
               }
               > a {
                 width: 32px;
                 height: 32px;
                 margin: auto;
+                color: inherit;
                 > svg {
                   width: 32px;
                   height: 32px;
+                  color: inherit;
+                  > path {
+                    color: inherit;
+                  }
                 }
               }
             }

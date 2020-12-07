@@ -1,14 +1,14 @@
 <template>
-  <screenlet>
+  <screenlet title="List Employees">
     <paginated-table
-        :colNames="['First Name', 'Last Name', 'Email']"
-        :colData="['firstName', 'lastName', 'emailId']"
-        :edit="true"
-        :del="true"
-        :view="true"
-        :fetchURL="{url: 'http://localhost:8080/api/employee/pagedList'}"
-        @on-edit="editRecord"
-        @on-delete="deleteRecord"
+      :colNames="['First Name', 'Last Name', 'Email']"
+      :colData="['firstName', 'lastName', 'emailId']"
+      :edit="true"
+      :del="true"
+      :view="true"
+      fetchURL="http://localhost:8080/api/employee/pagedList"
+      @on-edit="editRecord"
+      @on-delete="deleteRecord"
     />
   </screenlet>
 </template>
@@ -30,9 +30,7 @@ export default {
       console.log("DELETE RECORD", record);
     },
   },
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

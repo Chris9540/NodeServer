@@ -115,7 +115,7 @@ export default {
       required: false,
       default: false,
     },
-    fetchURL: Object,
+    fetchURL: String,
     pageNumberParamName: { type: String, default: "page" },
     pageSizeParamName: { type: String, default: "size" },
   },
@@ -164,7 +164,7 @@ export default {
     },
     fetchData() {
       this.loading = true;
-      const URL = `${this.fetchURL.url}?${this.pageNumberParamName}=${this.page}&${this.pageSizeParamName}=${this.size}`;
+      const URL = `${this.fetchURL}?${this.pageNumberParamName}=${this.page}&${this.pageSizeParamName}=${this.size}`;
       axios.get(URL).then((res) => {
         const { count, rows } = res.data;
         if (count && rows) {
